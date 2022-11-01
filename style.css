@@ -1,0 +1,107 @@
+
+/*colors and fonts*/
+body {
+ background-color: : rgb(230,230,230);
+ color: rgb(50,50, 50);
+ font-family:'Lora', serif;
+font size: 17px;
+
+}
+h1,h2,h3{
+	font-family: 'Roboto',sans-serif;
+}
+
+h1 {
+
+	color: green;
+	font-weight: 900;
+	font-size: 32px;
+	
+	
+}
+
+h2 {
+
+    color: #2045bf;
+	font-weight: 300;
+	font-size: 24px;
+	font-family: 'Lora', serif;
+
+}
+a { 
+	font-family: 'Roboto',sans-serif;
+	text-decoration: none;
+	color: rgb(100,100, 100);
+	font-weight: 600;
+	font-size: 16px;
+
+ }
+ a:hover {
+ 	color: yellow;
+ }
+
+ div {
+    background: white;
+
+    margin: 10px;
+
+
+ }
+
+ .main-paragraph{
+ 	padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .card-white{
+ 	border:1px solid #cacaca!important;
+ 	padding: 1rem;
+ 	border-radius: 5px;
+ 	box-shadow: 11px 10px 14px #a3a3a3;
+ }
+
+/*.bg-profile {
+    width: 13rem;
+
+    border-radius: 50%!important;
+    padding: 0rem;
+    height: 13rem;
+    margin: 0 auto;
+}*/
+
+
+.container {
+  width: 700px!important; /* set the width of your container */
+  margin: 40px auto!important; /* set margins: top/bottom: 40px; left/right: automatic */
+  text-align: center!important;
+}
+
+
+img.profile-img {
+    width: 204px;
+    height: auto;
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.discover-link {
+    color: green!important;
+    background-color: #fbce1b;
+    padding: 13px;
+
+}
+
+.discover-link:hover{
+    color:#0fa1e7!important;
+}
+
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
